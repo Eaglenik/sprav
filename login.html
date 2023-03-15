@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprav</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+<body>
+    <!-- login -->
+    <section class="tabs d-flex justify-content-center align-items-center container flex-column" id="produtcs-item">
+        <div class="nav tabs-links d-flex justify-content-center align-items-center">
+            <a href="#link1" data-bs-toggle="tab" class="tabs-links active">Вход</a>
+            <a href="#link2" data-bs-toggle="tab" class="tabs-links">Новый пользователь</a>
+            <a href="#link2" data-bs-toggle="tab" class="tabs-links">Регистрация</a>
+        </div>
+        <div class="tab-content">
+          <div class="tab-pane show fade active" id="link1">
+            <div class="tab-pane__item">
+                <form action="" class="tab-pane__item--form d-flex align-items-md-end flex-md-row flex-column align-items-center">
+                  <div class="tab-form">
+                    <div class="tab-pane__item--form_user">
+                      <input type="username" required>
+                      <p>Логин <span>*</span></p>
+                    </div>
+                    <div class="tab-pane__item--form_password">
+                      <div class="password">
+                        <input required type="password" id="password-input" name="password">
+                        <a href="#" class="password-control" onclick="return show_hide_password(this);"><img src="images/icons/eye-open.png" alt="" id="password-eye"></a>
+                      </div>
+                      <p>Пароль <span>*</span></p>
+                    </div>
+                    <div class="tab-pane__item--form_check d-flex flex-md-row flex-column">
+                      <label class="checkbox d-flex align-items-center gap-3">
+                        <input type='checkbox' name="check" value="check">
+                        <span></span>
+                        <p>Запомнить меня</p>
+                      </label>
+                      <a href="#!">Забыли пароль?</a>
+                    </div >
+                  </div >
+                  <div class="tab-pane__item--button d-flex flex-column align-items-md-start align-items-center">
+                    <div class="tab-pane__item--button_captcha">
+                      Капча
+                    </div>
+                    <button type="submit">Войти</button>
+                  </div>
+                </form>
+            </div>
+          </div>
+          <div class="tab-pane show fade" id="link2">
+            <div class="tab-pane__item">
+              <form action="" class="tab-pane__item--form d-flex align-items-md-end flex-md-row flex-column align-items-center">
+                <div class="tab-form">
+                  <div class="tab-pane__item--form_user">
+                    <input type="username" required>
+                    <p>Логин <span>*</span></p>
+                  </div>
+                  <div class="tab-pane__item--form_email">
+                    <input type="email" required>
+                    <p>e-mail <span>*</span></p>
+                  </div>
+                  <div class="tab-pane__item--form_password">
+                    <div class="password">
+                      <input required type="password" id="password-input" name="password">
+                      <a href="#" class="password-control" onclick="return show_hide_password(this);"><img src="images/icons/eye-open.png" alt="" id="password-eye"></a>
+                    </div>
+                    <div class="d-flex justify-content-between flex-md-row flex-column">
+                      <p>Пароль <span>*</span></p>
+                      <p><span>!</span> Минимальное количество символов — 6</p>
+                    </div>
+                  </div>
+                </div >
+                <div class="tab-pane__item--button btn-register d-flex flex-column align-items-md-start align-items-center">
+                  <div class="tab-pane__item--form_num">
+                    <input type="text" data-phone-pattern = "+998 __ ___ __ __" placeholder="+998" required>
+                    <p>Номер телефона (9 цифр)</p>
+                  </div>
+                  <div class="tab-pane__item--button_captcha">
+                    Капча
+                  </div>
+                  <button type="submit" class="btn_register">Регистрация</button>
+                </div>
+              </form>
+          </div>
+          </div>
+        </div>
+    </section>
+    <span class="form-line"></span>
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

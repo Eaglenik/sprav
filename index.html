@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprav</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+<body>
+    <!-- navbar -->
+    <navbar class="navbar container d-flex justify-content-between align-items-center">
+        <a href="index.html" class="navbar-logo d-flex gap-2 align-items-center">
+            <img src="images/logo/Group 20.png" alt="">
+            <div class="navbar-logo_text d-flex flex-column align-items-end">
+                <img src="images/logo/spra.png" alt="">
+                <img src="images/logo/Sprav.uz.png" alt="">
+            </div>
+        </a>
+        <ul class="navbar-nav_list d-lg-flex d-none gap-5">
+            <li><a href="#!" style="color: var(--red);">Главная</a></li>
+            <li><a href="#!">Прайс-лист</a></li>
+            <li><a href="#!">Скачать анкету</a></li>
+            <li><a href="#!">Добавить компанию</a></li>
+        </ul>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+          <div class="offcanvas-body d-flex justify-content-between">
+            <ul class="navbar-nav_list d-flex flex-column gap-3">
+                <li><a href="#!" style="color: var(--red);">Главная</a></li>
+                <li><a href="#!">Прайс-лист</a></li>
+                <li><a href="#!">Скачать анкету</a></li>
+                <li><a href="#!">Добавить компанию</a></li>
+            </ul>
+            <button type="button" class="navbar-list_btn--close icon-xmark" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center gap-3">
+            <ul class="navbar-lang_list d-lg-flex d-none gap-2 align-items-center">
+                <li><a href="#!" class="active">Ру</a></li>
+                <li><a href="#!" class="">O‘z</a></li>
+                <li><a href="#!" class="">En</a></li>
+            </ul>
+            <div class="dropdown d-lg-none d-flex">
+                <a class="navbar-lang_list__btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="icon-chevroneDown"></span>Ру
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">O‘z</a></li>
+                  <li><a class="dropdown-item" href="#">En</a></li>
+                </ul>
+              </div>
+            <button type="button" class="navbar-list_button d-lg-none d-flex justify-content-center align-items-center gap-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </navbar>
+    <!-- menu -->
+    <section class="menu container d-flex align-items-center justify-content-between">
+        <a class="menu-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><img src="images/logo/Group 342.png" alt=""></a>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Рубрики</h5>
+              <button type="button" class="menu-offcanvas_header" data-bs-dismiss="offcanvas" aria-label="Закрыть"><span class="icon-xmark"></span></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="menu-offcanvas_body--list">
+                    <li><a href="#!">Автомобили в Ташкенте <span class="menu-list_count">254</span></a></li>
+                    <li><a href="#!">Административные органы <span class="menu-list_count">52</span></a></li>
+                    <li><a href="#!">Банки, бизнес-услуги <span class="menu-list_count">328</span></a></li>
+                    <li><a href="#!">Бытовая техника  <span class="menu-list_count">76</span></a></li>
+                    <li><a href="#!">Бытовые услуги <span class="menu-list_count">303</span></a></li>
+                    <li><a href="#!">Гостиницы и туризм <span class="menu-list_count">71</span></a></li>
+                    <li><a href="#!">Досуг и отдых <span class="menu-list_count">163</span></a></li>
+                    <li><a href="#!">Инструменты <span class="menu-list_count">45</span></a></li>
+                    <li><a href="#!">Информационные <span class="menu-list_count">70</span></a></li>
+                    <li><a href="#!">Коммунальные услуги <span class="menu-list_count">14</span></a></li>
+                    <li><a href="#!">Компьютеры, оргтехника <span class="menu-list_count">77</span></a></li>
+                    <li><a href="#!">Легкая промышленность <span class="menu-list_count">88</span></a></li>
+                    <li><a href="#!">Мебель <span class="menu-list_count">114</span></a></li>
+                    <li><a href="#!">Медицина <span class="menu-list_count">371</span></a></li>
+                    <li><a href="#!">Научные организации <span class="menu-list_count">29</span></a></li>
+                    <li><a href="#!">Нефтегазовая отрасль <span class="menu-list_count">18</span></a></li>
+                    <li><a href="#!">Оборудование <span class="menu-list_count">547</span></a></li>
+                    <li><a href="#!">Образование <span class="menu-list_count">241</span></a></li>
+                    <li><a href="#!">Легкая промышленность <span class="menu-list_count">88</span></a></li>
+                    <li><a href="#!">Мебель <span class="menu-list_count">114</span></a></li>
+                    <li><a href="#!">Медицина <span class="menu-list_count">371</span></a></li>
+                    <li><a href="#!">Научные организации <span class="menu-list_count">29</span></a></li>
+                    <li><a href="#!">Нефтегазовая отрасль <span class="menu-list_count">18</span></a></li>
+                    <li><a href="#!">Оборудование <span class="menu-list_count">547</span></a></li>
+                    <li><a href="#!">Образование <span class="menu-list_count">241</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-search">
+            <div class="menu-search_dropdown">
+                <button class=" dropdown-toggle d-flex justify-content-between" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Ташкент
+                    <span class="icon-chevroneDown"></span>
+                </button>
+                <div class="dropdown-menu">
+                  <div class="dropdown-menu_area d-flex flex-wrap">
+                      <ul>
+                          <li><a class="dropdown-item" href="#">Алмазарский район</a></li>
+                          <li><a class="dropdown-item" href="#">Сергелийский район</a></li>
+                          <li><a class="dropdown-item" href="#">Учтепинский район</a></li>
+                          <li><a class="dropdown-item" href="#">Бектемирский район</a></li>
+                      </ul>
+                      <ul>
+                          <li><a class="dropdown-item" href="#">Чиланзарский район</a></li>
+                          <li><a class="dropdown-item" href="#">Яккасарайский район</a></li>
+                          <li><a class="dropdown-item" href="#">Мирабадский район</a></li>
+                          <li><a class="dropdown-item" href="#">Шайхантаурский район</a></li>
+                      </ul>
+                      <ul>
+                          <li><a class="dropdown-item" href="#">Янги-Хаётский район</a></li>
+                          <li><a class="dropdown-item" href="#">Мирзо-Улугбекский район</a></li>
+                          <li><a class="dropdown-item" href="#">Юнусабадский район</a></li>
+                          <li><a class="dropdown-item" href="#">Яшнабадский район</a></li>
+                      </ul>
+                  </div >
+                </div>
+            </div>
+            <form action="index.html">
+              <input type="search" placeholder="Поиск" class="icon-search">
+              <a href="#!" class="icon-search"></a>
+            </form>
+        </div>
+        <div class="menu-use d-flex align-items-center gap-sm-4 gap-2">
+            <a href="login.html" class="menu-user d-flex justify-content-center align-items-center flex-column">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 14C0 6.26801 6.26801 0 14 0C21.732 0 28 6.26801 28 14C28 21.732 21.732 28 14 28C6.26801 28 0 21.732 0 14ZM14 2C7.37258 2 2 7.37258 2 14C2 17.1402 3.20619 19.9987 5.18054 22.1375C5.89074 19.7172 8.12822 17.9505 10.7782 17.9505H17.222C19.8719 17.9505 22.1094 19.7171 22.8196 22.1373C24.7939 19.9986 26 17.1401 26 14C26 7.37258 20.6274 2 14 2ZM21.0542 23.7087C21.0149 21.6261 19.3144 19.9505 17.222 19.9505H10.7782C8.68576 19.9505 6.98529 21.6262 6.94603 23.7089C8.92601 25.1499 11.3637 26 14 26C16.6364 26 19.0742 25.1498 21.0542 23.7087ZM14.0001 7.22383C11.8824 7.22383 10.1672 8.93884 10.1672 11.0536C10.1672 13.1683 11.8824 14.8833 14.0001 14.8833C16.1178 14.8833 17.833 13.1683 17.833 11.0536C17.833 8.93884 16.1178 7.22383 14.0001 7.22383ZM8.16725 11.0536C8.16725 7.83304 10.7791 5.22383 14.0001 5.22383C17.2211 5.22383 19.833 7.83304 19.833 11.0536C19.833 14.2741 17.2211 16.8833 14.0001 16.8833C10.7791 16.8833 8.16725 14.2741 8.16725 11.0536Z"/>
+                </svg>
+                <p class="d-sm-inline-flex d-none">Войти</p>
+            </a>
+            <a href="profile.html" class="menu-user d-none justify-content-center align-items-center flex-column">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 14C0 6.26801 6.26801 0 14 0C21.732 0 28 6.26801 28 14C28 21.732 21.732 28 14 28C6.26801 28 0 21.732 0 14ZM14 2C7.37258 2 2 7.37258 2 14C2 17.1402 3.20619 19.9987 5.18054 22.1375C5.89074 19.7172 8.12822 17.9505 10.7782 17.9505H17.222C19.8719 17.9505 22.1094 19.7171 22.8196 22.1373C24.7939 19.9986 26 17.1401 26 14C26 7.37258 20.6274 2 14 2ZM21.0542 23.7087C21.0149 21.6261 19.3144 19.9505 17.222 19.9505H10.7782C8.68576 19.9505 6.98529 21.6262 6.94603 23.7089C8.92601 25.1499 11.3637 26 14 26C16.6364 26 19.0742 25.1498 21.0542 23.7087ZM14.0001 7.22383C11.8824 7.22383 10.1672 8.93884 10.1672 11.0536C10.1672 13.1683 11.8824 14.8833 14.0001 14.8833C16.1178 14.8833 17.833 13.1683 17.833 11.0536C17.833 8.93884 16.1178 7.22383 14.0001 7.22383ZM8.16725 11.0536C8.16725 7.83304 10.7791 5.22383 14.0001 5.22383C17.2211 5.22383 19.833 7.83304 19.833 11.0536C19.833 14.2741 17.2211 16.8833 14.0001 16.8833C10.7791 16.8833 8.16725 14.2741 8.16725 11.0536Z"/>
+                </svg>
+                <span class="menu-user_count d-none">1</span>
+                <p class="d-sm-inline-flex d-none">Профиль</p>
+            </a>
+            <a href="#!" class="menu-favorite d-flex justify-content-center align-items-center flex-column">
+                <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14 0C14.3822 0 14.731 0.217856 14.8987 0.561321L18.6847 8.31703L27.1453 9.55917C27.5207 9.61428 27.8325 9.87706 27.9505 10.2376C28.0684 10.5982 27.9722 10.9945 27.7019 11.2608L21.5731 17.3007L23.0208 25.8327C23.0845 26.2085 22.9292 26.5878 22.6201 26.8109C22.311 27.0339 21.9021 27.0619 21.5655 26.883L14 22.8616L6.43454 26.883C6.09799 27.0619 5.68901 27.0339 5.37996 26.8109C5.0709 26.5878 4.91551 26.2085 4.97927 25.8327L6.42695 17.3007L0.298111 11.2608C0.0278862 10.9945 -0.068368 10.5982 0.0495909 10.2376C0.16755 9.87706 0.479404 9.61428 0.854771 9.55917L9.31539 8.31703L13.1014 0.561321C13.269 0.217856 13.6178 0 14 0ZM14 3.27957L10.8812 9.66848C10.7364 9.96516 10.4545 10.1712 10.1279 10.2192L3.1326 11.2462L8.20195 16.2419C8.43455 16.4712 8.54057 16.7995 8.48594 17.1215L7.29122 24.1627L13.5307 20.8461C13.8241 20.6901 14.1759 20.6901 14.4694 20.8461L20.7088 24.1627L19.5141 17.1215C19.4595 16.7995 19.5655 16.4712 19.7981 16.2419L24.8675 11.2462L17.8722 10.2192C17.5456 10.1712 17.2636 9.96516 17.1188 9.66848L14 3.27957Z"/>
+                </svg>
+                <span class="menu-favorite_count d-none">1</span>
+                <p class="d-sm-inline-flex d-none">Избранное</p>
+            </a>
+        </div>
+    </section>
+    <!-- Сurrency -->
+    <span class="currency-line"></span>
+    <section class="currency container d-flex element-animation align-items-center">
+        <div class="currency-list owl-carousel d-flex gap-5">
+            <div class="currency-list_item">
+                <p><span class="current-currency">Курс валют на</span > <span class="current-currency_date" id="current_date_time_block"></span>
+                </p>
+            </div>
+            <div class="currency-list_item item-usd">
+                <p><span class="currency-span">USD</span> 10 980  ·  11 200</p>
+            </div>
+            <div class="currency-list_item">
+                <p><span class="currency-span">EUR</span> 10 700  ·  12 600</p>
+            </div>
+            <div class="currency-list_item">
+                <p><span class="currency-span">RUB</span> 152  ·  160</p>
+            </div>
+            <div class="currency-list_item">
+                <p><span class="currency-span">KZT</span> 21  ·  25</p>
+            </div>
+        </ul>
+    </section>
+    <span class="currency-line"></span>
+
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
